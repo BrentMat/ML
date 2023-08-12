@@ -1,11 +1,11 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
 code: model
 command: >-
-  python 
+  python: "3.6.2"
   --
   --
 inputs:
-  training_data: 
+  training_data: diabetes-dev-folder
     type: uri_folder 
     path: 
   reg_rate: 0.01
