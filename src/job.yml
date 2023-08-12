@@ -5,7 +5,7 @@ command: >-
   --
   --
 inputs:
-  training_data: diabetes-dev-folder
+  training_data: train.py
     type: uri_folder 
     path: 
   reg_rate: 0.01
